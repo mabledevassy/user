@@ -9,7 +9,8 @@ const Buy = () => {
        <TextField id="outlined-basic"label="pincode" variant="outlined"/><br/><br/>
        <TextField id="outlined-basic"label="state" variant="outlined"/><br/><br/>
        <TextField id="outlined-basic"label="city" variant="outlined"/><br/><br/>
-       <TextField id="outlined-basic"label="House number/Building name" variant="outlined"/><br/><br/>
+     
+<TextField id="outlined-multiline-flexible"label="House name/Building name" multiline={4}/><br/><br/>
        <TextField id="outlined-basic"label="Road name" variant="outlined"/><br/><br/>
        <Button variant="contained">Submit</Button>
     </div>

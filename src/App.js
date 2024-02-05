@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Buy from './components/Buy';
 import Payment from './components/Payment';
+import Additem from './components/Seller/Additem';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Login/> */}
       {/* <Signup/> */}
     {/* <Buy/> */}
-    <Payment/>
+    {/* <Payment/> */}
+    <Additem/>
     </div>
   );
 }
